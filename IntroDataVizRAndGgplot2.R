@@ -25,6 +25,7 @@ library(ggplot2)
 
 
 # Load Titanic titanicing data for analysis. Open in spreadsheet view.
+setwd(choose.dir())
 titanic <- read.csv("titanic.csv", stringsAsFactors = FALSE)
 View(titanic)
 
